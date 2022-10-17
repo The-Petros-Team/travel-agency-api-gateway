@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: api-gateway
+  config:
+    import: configserver:https://travel-agency-config-server.herokuapp.com/
